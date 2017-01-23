@@ -1,3 +1,5 @@
+require 'azure'
+
 module Azure
   class SAS
     class Sign
