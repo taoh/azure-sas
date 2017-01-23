@@ -1,2 +1,2 @@
 # azure-sas
-Shared Access Signature for Azure
+Shared Access Signature generation for Azure
