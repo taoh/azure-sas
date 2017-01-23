@@ -21,7 +21,7 @@ module Azure
 
       def signature
         canonicalized_resource = CanonicalizedResource.new(@storage_account, @uri, blob: true).generate
-        body = StringToSign::Blob.new(canonicalized_resource, @options).generate
+        body = StringToSign::V20120212::Blob.new(canonicalized_resource, @options).generate
         Sign.new(@storage_access_key, body).perform
       end
     end
