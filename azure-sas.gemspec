@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.5'
-  spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'minitest'
-  spec.add_dependency 'azure'
-  spec.add_dependency 'addressable'
+  spec.add_development_dependency 'rake', '~> 12.0'
+  spec.add_development_dependency 'minitest', '~> 5.10'
+  spec.add_dependency 'azure', '~> 0.7'
+  spec.add_dependency 'addressable', '~> 2.5'
 end
