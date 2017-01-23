@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     azure-sas (0.1)
-      addressable
-      azure
+      addressable (~> 2.3)
+      azure (~> 0.7)
 
 GEM
   remote: https://rubygems.org/
@@ -23,9 +23,9 @@ GEM
       faraday (~> 0.9)
       faraday_middleware (~> 0.10)
       nokogiri (~> 1.6)
-    faraday (0.9.2)
+    faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.11.0)
+    faraday_middleware (0.11.0.1)
       faraday (>= 0.7.4, < 1.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
@@ -46,8 +46,8 @@ PLATFORMS
 DEPENDENCIES
   azure-sas!
   bundler (~> 1.5)
-  minitest
-  rake
+  minitest (~> 5.10)
+  rake (~> 12.0)
 
 BUNDLED WITH
    1.13.6
